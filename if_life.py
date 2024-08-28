@@ -23,13 +23,17 @@ else:
 
 
 print("---Vår tredje if-sats i annan ordning!---")
+
 if x == 42:
     print("x är meningen med livet!")
     print("x är positivt")
+
 elif x > 0:
     print("x är positivt")
+
 elif x < 0:
     print("x är negativt")
+
 else:
     print("x måste vara noll här!")
 
